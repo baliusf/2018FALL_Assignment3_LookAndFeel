@@ -18,13 +18,14 @@ text-decoration: none;
 .topnav a {
   float: right;
   display: block;
-  color: orange;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  background-color: black;
-  opacity: 0.4;
+  background: rgba(0,0,0,0.4);
+  /*background-color: black;*/
+  /*opacity: 0.4;*/
   border-radius: 24px;
 }
 
