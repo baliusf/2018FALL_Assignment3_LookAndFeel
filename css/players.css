@@ -8,6 +8,7 @@
     background-image: url(".../img/background.jpg");
     background-repeat:no-repeat;
     background-size:100% 100vh;
+    object-fit: cover;
 .stretch {
     width:100%;
     height:100%;
@@ -56,12 +57,11 @@
 .bottom-left {
     position: absolute;
     bottom: 8px;
-    left: 16px;
+    left: 8px;
     font-size: 110px;
-    color: lightblue;
-    background-color: black;
+    color: black;
+    background-color: white;
     opacity: 0.6;
-    border-radius: 20px;
 }
 
 .title {
