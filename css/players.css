@@ -1,31 +1,49 @@
+#background {
+    width: 100%; 
+    height: 100%; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; 
+    position: fixed;
+    background-image: url(".../img/background.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+.stretch {
+    width:100%;
+    height:100%;
+}
+}
+
 .coverimage {
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    height: 60%;
-    object-fit: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
 }
 
 .tablecell {
 	width: 100%;
 	border: 1px solid black;
 	padding: 10px;
-	
+  text-align: center;
+  background: rgba(255,255,255,0.4);
+  border-radius: 24px;
 }
 
 .column {
     float: left;
     width: 20%;
-    background-color: lightblue;
 }
 
 .thumbnail {
 	display: block;
 	margin-left: auto;
-    margin-right: auto;
+  margin-right: auto;
 	width: 150px;
 	height: 180px;
+  border: 1px solid black;
 	object-fit: cover;
 }
 
@@ -46,6 +64,11 @@
     border-radius: 20px;
 }
 
+.title {
+  position: absolute;
+  color: black;
+  font-size: 25px;
+}
 
 hr {
 	clear:both;
