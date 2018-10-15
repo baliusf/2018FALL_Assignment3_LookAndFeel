@@ -37,16 +37,17 @@ text-decoration: none;
   color: white;
 }
 .proverb {
-  position: relative;
-  min-height: 150px;
-  left: 30px;
-  right: 30px;
-}
-.proverb {
+  width: 100%;
   position: absolute;
-  align:centre;
+  min-height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   bottom: 0px;
-  left: 200px;
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+  background: rgba(0,0,0,0.4);
 }
 
 .topnav .icon {
@@ -75,7 +76,20 @@ text-decoration: none;
   }
 }
 
+@media screen and (max-width: 600px) {
+  .proverb {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .proverb {
+    font-size: 50px;
+  }
+}
+
 .stretch {
     width:100%;
     height:100%;
+    object-fit: cover;
 }
