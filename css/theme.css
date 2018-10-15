@@ -37,6 +37,18 @@ text-decoration: none;
   background-color: none;
   color: white;
 }
+.proverb {
+  position: relative;
+  min-height: 150px;
+  left: 30px;
+  right: 30px;
+}
+.proverb {
+  position: absolute;
+  align:centre;
+  bottom: 0px;
+  left: 200px;
+}
 
 .topnav .icon {
   display: none;
