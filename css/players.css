@@ -78,26 +78,31 @@ hr {
   border: 0px solid black;
 }
 
-@media screen and (max-width: 250px) {
+@media screen and (min-width: 250px) {
   .column {
     width: 100%;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
   .column {
     width: 50%;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (min-width: 750px) {
   .column {
     width: 33.3%;
   }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (min-width: 1000px) {
   .column {
     width: 25%;
+  }
+
+@media screen and (min-width: 1200px) {
+  .column {
+    width: 20%;
   }
 }
