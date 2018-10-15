@@ -74,7 +74,21 @@ max-width:350px;
     width:100%;
     height:100%;
 }
-img {
-    opacity: 0.8;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+
+.container {
+  background: rgba(0,0,0,0.6);
+  padding: 16px;
+}
+
+.title {
+  position: relative;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.subtitle {
+  position: relative;
+  color: white;
+  font-size: 22px;
 }
