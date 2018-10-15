@@ -44,7 +44,7 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 0px) {
   .topnav a:not(:first-child) {display: none;}
   .topnav a.icon {
     float: right;
@@ -52,8 +52,8 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+@media screen and (max-width: 0px) {
+  .topnav.responsive {position: absolute;}
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
@@ -73,4 +73,22 @@ max-width:350px;
 .stretch {
     width:100%;
     height:100%;
+}
+
+.container {
+  background: rgba(0,0,0,0.6);
+  padding: 16px;
+}
+
+.title {
+  position: relative;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.subtitle {
+  position: relative;
+  color: white;
+  font-size: 22px;
 }
